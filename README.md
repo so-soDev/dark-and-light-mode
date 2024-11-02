@@ -15,11 +15,11 @@ Code Explanation
 1) HTML Structure: Contains a checkbox input for the theme toggle and a content area with a title and paragraph.
 
 2) CSS Styles:
--Uses CSS variables to define colors for light and dark themes.
+    2.1) Uses CSS variables to define colors for light and dark themes.
 
--Transitions are applied to make the color changes smooth.
+    2.2) Transitions are applied to make the color changes smooth.
 
--The checkbox is styled as a switch with a moving circle indicator.
+    2.3) The checkbox is styled as a switch with a moving circle indicator.
 
 3) JavaScript Functionality: Adds an event listener to detect changes in the checkbox state. When the checkbox is checked, a data-theme="dark" attribute is added to the <html> element, triggering the dark theme styles.
 
